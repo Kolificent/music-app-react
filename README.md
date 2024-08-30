@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+![music-app-screenshot](https://i.imgur.com/4M8Xdot.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Музыкальный стриминг-сервис
 
-Currently, two official plugins are available:
+Приложение для прослушивания и поиска музыки
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Стэк:
 
-## Expanding the ESLint configuration
+React, TypeScript, Redux Toolkit, React Router, Material UI, Spotify Web API, Spotify TypeScript SDK, Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Фичи:
 
-- Configure the top-level `parserOptions` property like this:
+- Воспроизведение треков
+- Аутентификация и авторизация пользователя через Spotify аккаунт
+- Поиск
+- Просмотр разного типа контента (треки, альбомы, исполнители и т.д.)
+- Навигация
+- Возможность посмотреть контент в оригинальном Spotify клиенте
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[**Видео-демо**](https://drive.google.com/file/d/1h8r0wDCH7HTl3djcPs0F9QCGesd9Aw00/view?usp=sharing)
